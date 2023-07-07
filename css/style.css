@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+
+.section__header {
+    background-color: #3f234b;
+    min-height: 40px;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    max-width: 330px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    min-height: 40px;
+}
+.header__text {
+    color: #fff;
+    padding-left: 30px;
+}
+
+input._error {
+    box-shadow: 0 0 15px red;
+}
+
+body {
+    background-color: #fafafa;
+    max-width: 580px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.language-block {
+    color: #4d4d4d;
+    padding-top: 30px;
+}
+.inst-img-block {
+    padding-top: 85px;
+}
+
+.scam__form {
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.form-inputs-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-inputs-block input {
+    background-color: #fafafa;
+    border: 1px solid #cfcfcf;
+    padding-left: 14px;
+    border-radius: 5px;
+    width: 300px;
+    height: 45px;
+    outline: none;
+}
+.form-forgot {
+    font-size: 14px;
+    color: #4cb5f9;
+    align-self: flex-end;
+}
+.btn {
+    background-color: #4cb5f9;
+    color: #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    border: 0;
+    font-size: 18px;
+}
+.text-reg-block {
+    padding-top: 60px;
+    margin: 0 auto;
+    max-width: 350px;
+}
+.text-registr {
+    color: #4d4d4d;
+}
+.text-registr_blue {
+    color: #199de7;
+}
+
+.section__footer {
+    border-top: 1px solid #cfcfcf; 
+    min-height: 88px;
+    background-color: #fafafa;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.foot-block {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.foot-text {
+    color: #4d4d4d;
+}
+
+.err-block {
+    margin-top: 50px;
+    width: 300px;
+    height: 80px;
+    background-color: #fafafa;
+    border: 2px solid #4d4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.err-text {
+    color: #4d4d4d;
+    font-size: 20px;
+}
